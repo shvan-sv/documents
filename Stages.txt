@@ -1,0 +1,40 @@
+Stages of Development of Shvan
+=======================
+
+Stage A - INTERPRETER STAGE
+	a) Write a Python based interpreter
+	b) Incorporate Windows DOS Commands for the command 
+prompt
+	c) Incorporate Linux OS Commands for the command prompt
+	d) Incorporate declarative basic arithmatic operations
+	e) Incorporate string operations 
+	
+Stage B - INTERPRETER LIBRARIES
+	a) Develop libraries for all those declarative commands
+
+Stage C - IDE OR UI
+	a) Incorporate the above
+
+Stage D - LEXICOLOGY
+	a) Lexical analysis and incorporation for command line execution
+	b) ---- still thinking ----
+
+Stage E - PARSER CREATION
+
+Stage F - RUNTIME LIBRARIES
+
+Stage G - FEATURE INCLUSIONS
+
+21-Feb-2021
+=========
+
+This is how we have planned and been doing it as per the main document... (shared with you)
+
+Stage A - INTERPRETER STAGE
+	a) Write a Python based interpreter
+Result: 	(i)  We have created a command line interpreter using Python
+	(ii) We have done lexical analysis for 4 mathematical operators 	
+	for two operands at least, as of now
+	(iii) We are trying for more than two operators
+Next goal of Stage A
+	(iv) We will now have to create a PARSER for our goals such as 		operator precedences or applying BODMAS with tokenizing 	expressions inside the brackets
